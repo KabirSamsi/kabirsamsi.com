@@ -12,11 +12,11 @@ const App = function() {
       <BrowserRouter>
           <Routes>
               <Route path="/" element={<Homepage/>}></Route>
-              <Route path="/home" element={<Homepage/>}></Route>
               <Route path="/education" element={<Education/>}></Route>
               <Route path="/experience" element={<Experience/>}></Route>
               <Route path="/projects" element={<Projects/>}></Route>
               <Route path="/outside" element={<Outside/>}></Route>
+              <Route path="/*" element={<Homepage/>}></Route>
           </Routes>
       </BrowserRouter>
   );

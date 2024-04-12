@@ -46,8 +46,9 @@ function Photo() {
         </div>
         <div className="subheading">
             <h3 className="intro-text">Hi there, I'm Kabir!</h3>
-            <em className="subtext">Thanks for stopping by.</em><br></br>
-            <em className="subtext-tiny">My site is still under development, but stay posted!</em>
+            <em className="subtext">Thanks for stopping by.</em>
+            <br></br>
+            <span className="subtext-tiny">My site is still under development, but stay posted!</span>
         </div>
     </div>
   );
