@@ -134,3 +134,27 @@
 .subheading {
   text-align: center;
 }
+
+.education-box {
+  text-align: left;
+  font-size: 70%;
+  border-color: orange;
+  width: 900px;
+  font-family: Verdana;
+}
+
+.subtext-smol {
+  font-size: 90%;
+}
+
+.education-heading {
+  text-decoration: underline;
+}
+
+.education-section {
+  display: inline-block;
+}
+
+.column-section {
+  padding-top: 20px;
+}
