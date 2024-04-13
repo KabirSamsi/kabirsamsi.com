@@ -48,7 +48,7 @@ function Photo() {
             <h3 className="intro-text">Hi there, I'm Kabir!</h3>
             <em className="subtext">Thanks for stopping by.</em>
             <br></br>
-            <span className="subtext-tiny">My site is still under development, but stay posted!</span>
+            <span className="subtext-tiny">My site is still under development, but feel free to look around!</span>
         </div>
     </div>
   );
