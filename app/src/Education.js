@@ -12,7 +12,7 @@ const Education = function() {
             <p class="subtext-smol"><em>Bachelor in Arts '26 (Computer Science, Mathematics & Music) at the College of Arts & Sciences</em></p>
             <p><strong>Dean's List (All Semesters), Pursuing CS Honors</strong></p>
 
-            <p>I'm currently studying Computer Science & Mathematics, with a minor (which may change to a major) in Music. I'm advised by <a rel="noreferrer" target="_blank" href="https://www.cs.cornell.edu/~damle/">Anil Damle</a> & <a rel="noreferrer" target="_blank" href="https://math.cornell.edu/dan-m-barbasch">Dan Barbasch</a>. I'm pursuing a specialization in Programming Languages & Compilers, considering an added specialization in either SWE or ML.</p>
+            <p>I'm currently studying Computer Science, Mathematics & Music. I'm advised by <a rel="noreferrer" target="_blank" href="https://www.cs.cornell.edu/~damle/">Anil Damle</a> & <a rel="noreferrer" target="_blank" href="https://math.cornell.edu/dan-m-barbasch">Dan Barbasch</a>. I'm pursuing specializations in Programming Languages and Software Engineering.</p>
             <p>I am involved in a number of different organizations on campus as a software engineer, head teaching assistant and student researcher (see more about this under my <a href="\experience">Experience</a>).</p>
             <p>I intend to pursue Cornell's CS Honors, and complete my Master's Degree in Engineering here.</p>
 
@@ -22,10 +22,9 @@ const Education = function() {
                   <p class="education-heading"><strong>Activities & Societies</strong></p>
                   <ul>
                     <li>Association For CS Undergraduates</li>
+                    <li>BURE Scholar</li>
                     <li>CMSX (Software Engineer)</li>
-                    <li>Capra (Researcher)</li>
-                    <li>Cornell Nexus (Developer)</li>
-                    <li>Cornell Lab of Ornithology (Analyst)</li>
+                    <li>Capra Research (Researcher)</li>
                     <li>Cornell Gamelan Ensemble (Musician)</li>
                     <li>Cornell Birding Club</li>
                   </ul>
@@ -38,10 +37,11 @@ const Education = function() {
                     <li>Analysis of Algorithms</li>
                     <li>Programming Languages</li>
                     <li>Data Strucures & OOP (Honors)</li>
-                    <li>Data Structures & Functional Programming</li>
+                    <li>Functional Programming</li>
                     <li>Systems Programming</li>
-                    <li>Program Synthesis</li>
-                    <li>Advanced Linear Algebra</li>
+                    <li>Certified Software Systems (Graduate)</li>
+                    <li>Linear Algebra</li>
+                    <li>Computational Algebra</li>
                     <li>Probability Theory</li>
                   </ul>
                 </div>

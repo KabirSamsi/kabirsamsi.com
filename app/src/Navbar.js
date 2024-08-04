@@ -60,7 +60,7 @@ function Navbar(props) {
               }
 
               <li className="nav-item">
-                <a className="nav-link" target="blank" href="resume-2024.pdf">CV</a>
+                <a className="nav-link" target="blank" href="resume.pdf">Resume</a>
               </li>
             </ul>
           </div>
@@ -79,11 +79,6 @@ function Navbar(props) {
                 <li className="nav-item logo">
                   <a className="nav-link" target="_blank" rel="noreferrer" href="mailto:samsikabir@gmail.com">
                     <i className="fa fa-envelope"></i>
-                  </a>
-                </li>
-                <li className="nav-item logo">
-                  <a className="nav-link" target="_blank" rel="noreferrer" href="https://www.instagram.com/ksamsi04/">
-                    <i className="fa fa-instagram"></i>
                   </a>
                 </li>
               </div>

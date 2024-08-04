@@ -1,0 +1,205 @@
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{geometry}
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\input{glyphtounicode}
+\usepackage{hyperref}
+
+
+%----------FONT OPTIONS----------
+% sans-serif
+% \usepackage[sfdefault]{FiraSans}
+% \usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+% \usepackage[default]{sourcesanspro}
+
+% serif
+% \usepackage{CormorantGaramond}
+% \usepackage{charter}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & #2 \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+
+
+\begin{document}
+
+\begin{center}
+    \textbf{\huge \scshape Kabir Samsi} \\ \vspace{1pt}
+    { \small
+        \href{https://kabirsamsi.com}{\underline{kabirsamsi.com}} $|$ \href{mailto:samsikabir@gmail.com}{\underline{samsikabir@gmail.com}} $|$ 
+        \href{https://linkedin.com/in/kabir-samsi}{\underline{linkedin.com/in/kabir-samsi/}} $|$ \href{https://github.com/KabirSamsi}{\underline{github.com/KabirSamsi}}
+    }
+\end{center}
+
+{\small Software engineer \& researcher with strong passions for system \& software engineering, with particular interests in intersecting compiler \& programming language design with machine learning to build elegant software. Skilled in SWE, systems programming, PL \& ML research, full-stack development, data engineering, team leadership \& teaching.\\[-10pt]}
+    
+%-----------EDUCATION-----------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Cornell University}{Ithaca, NY}
+      {Bachelor of Arts – Computer Science, Mathematics \& Music} {Aug. 2022 -- Dec. 2025}
+      \resumeItemListStart
+        \resumeItem{\textbf{Graduate Coursework}: Software Systems, Compilers, Programming Languages}
+        \resumeItem{\textbf{Relevant Undergraduate Coursework:} Algorithms, Data Structures \& OOP (Honors), Machine Learning, Functional Programming, Operating Systems, Computational Algebra, Linear Algebra, Probability Theory}
+        \resumeItem{\textbf{GPA 3.8/4.0, Dean's List Recipient} (All Semesters), Pursuing CS Honors (PL \& SWE Specialization)\\[-2pt]}
+      \resumeItemListEnd
+  \resumeSubHeadingListEnd
+
+
+%-----------EXPERIENCE-----------
+\section{Work Experience}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Researcher (Programming Language \& Compiler Design)}{June 2024 -- Present}
+      {\href{https://capra.cs.cornell.edu/}{Capra Research Group} @ Cornell University}{Ithaca, NY}
+      \resumeItemListStart
+        \resumeItem{Researched optimizations for software-defined networking \& language design for programmable packet scheduling.}
+        \resumeItem{Developed a compiler \& language for scheduling policy design, and algorithms to translate policies onto hardware.}
+        \resumeItem{Spearheaded the design, formal verification \& hardware representations of the PIEO/PIEO Tree data structures.}
+      \resumeItemListEnd
+      
+    \resumeSubheading
+      {Head Teaching Assistant}{August 2023 -- Present}
+      {CS3110 (Data Structures \& Functional Programming) @ Cornell University}{Ithaca, NY}
+      \resumeItemListStart
+        \resumeItem{Taught functional programming, data structures, interpreter design \& formal verification to thousands of students.}
+        \resumeItem{Created \& led all pre-exam recitations; designed the course lab material; ran OH/discussions; led all TA meetings.}
+        \resumeItem{Recipient of Cornell's Outstanding Computing \& Information Science Teaching Assistant Award.}
+        \resumeItemListEnd
+        
+    \resumeSubheading
+      {Software Development Engineer}{August 2023 -- Present}
+    {\href{https://www.cs.cornell.edu/projects/cms/cmsx/}{CMSX} @ Cornell University}{Ithaca, NY}
+      \resumeItemListStart
+        \resumeItem{Full-stack developer for Cornell CIS's primary course management platform (8K+ users and 100+ courses).}
+        \resumeItem{Optimized the staff grading interface; implemented parsing, verification and new integrations for CSV uploads.}
+        \resumeItem{Reinforced type safety and refactored large portions of the Java codebase; migrated the frontend stack to React.js.}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {Data Analyst}{October 2022 -- May 2024}
+      {Cornell Lab of Ornithology}{Ithaca, NY}
+      \resumeItemListStart
+        \resumeItem{Classified 5000+ images and developed audiovisual bird ID models \& data cleaning scripts for the \href{https://merlin.allaboutbirds.org/}{Merlin Project}.}
+        \resumeItem{Curated database profiles for 300+ species splits for the \href{https://ebird.org/about}{EBird} packs in Indonesia \& Taiwan.\\[-5pt]}
+      \resumeItemListEnd
+    
+  \resumeSubHeadingListEnd
+
+
+%-----------PROJECTS-----------
+\section{Projects}
+    \resumeSubHeadingListStart
+      \resumeProjectHeading
+          {\textbf{Saberchat (Team Lead)} $|$ \emph{MEAN Stack}}{June 2020 -- May 2022}
+          \resumeItemListStart
+            \resumeItem{Led the development of a community platform infrastructure used by schools \& organizations. Includes content-sharing systems, an online tutoring center \& a streamlined preorder/inventory interface for retail groups.\\[-1pt]}
+          \resumeItemListEnd
+      \resumeProjectHeading
+          {\textbf{FindYourBird (Founder \& Lead)} $|$ \emph{MEAN Stack}}{June 2020 -- May 2024}
+          \resumeItemListStart
+            \resumeItem{Founded and built a bird ID, info \& observation logging platform used by amateur ornithologists. Includes a search \& identification system, information pages on 200+ different species \& user-specific target species and locations.\\[-2pt]}
+          \resumeItemListEnd
+      \resumeProjectHeading
+          {\textbf{KLaTsL} $|$ \emph{OCaml}}{November 2023 -- Present}
+          \resumeItemListStart
+            \resumeItem{A functional, typed \& interpreted  linear algebra-focused DSL introducing an elegant type system and syntax featuring matrix comprehensions \& factorizations, typed transformations, dimensional typing and more.\\[-1pt]}
+          \resumeItemListEnd
+      \resumeProjectHeading
+          {\textbf{Franz} $|$ \emph{Rust}}{March 2024 -- Present}
+          \resumeItemListStart
+            \resumeItem{A compiled, domain-specific programming language targeted towards compact and modular musical composition, using a medium of text-based musical notation. Compiles to ChucK, an audio representation language.\\[-2pt]}
+          \resumeItemListEnd
+    \resumeSubHeadingListEnd
+%
+%-----------PROGRAMMING SKILLS-----------
+\section{Technical Skills}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{Languages}{: Java, C/C++, Rust,  OCaml, JavaScript/TypeScript, Python, Swift, Haskell, Ruby, Go, HTML/CSS} \\
+     \textbf{Frameworks}{: MongoDB, Express, Node, React, NextJS, Ajax, LLVM, Yacc, Coq, Flask, Pandas, TensorFlow, PyTorch} \\
+     \textbf{Databases \& Systems}{: MongoDB, SQL/PostgreSQL/MariaDB, Neo4j, Linux, Git, Docker, AWS}\\
+     \textbf{Expertise}{: Software Engineering, PL/Compilers, Research, ML, Fullstack Development, Systems Programming} \\
+    }}
+ \end{itemize}
+
+
+%-------------------------------------------
+\end{document}
