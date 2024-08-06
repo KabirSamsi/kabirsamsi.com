@@ -43,7 +43,7 @@ function Navbar(props) {
 
               {(props.current === "projects")
               ? <li className="nav-item active">
-                  <a className="nav-link" href="/education">Projects</a>
+                  <a className="nav-link" href="/projects">Projects</a>
                 </li>
               : <li className="nav-item">
                   <a className="nav-link" href="/projects">Projects</a>
@@ -52,10 +52,10 @@ function Navbar(props) {
 
               {(props.current === "outside")
               ? <li className="nav-item active">
-                  <a className="nav-link" href="/education">Outside Work</a>
+                  <a target="_blank" className="nav-link" href="https://www.instagram.com/kbirdpics/">Photography</a>
                 </li>
               : <li className="nav-item">
-                  <a className="nav-link" href="/outside">Outside Work</a>
+                  <a target="_blank" className="nav-link" href="https://www.instagram.com/kbirdpics/">Photography</a>
                 </li>                
               }
 

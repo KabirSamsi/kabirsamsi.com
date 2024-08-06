@@ -42,13 +42,16 @@ function Photo() {
                 <div className="flip-box-back">
                     <img className="profile-photo" src="kingfisher_profile.jpeg" alt="Kabir Samsi Profile"></img>
                 </div>
+                <div className="flip-box-back">
+                    <img className="profile-photo" src="kingfisher_profile.jpeg" alt="Kabir Samsi Profile"></img>
+                </div>
             </div>
         </div>
         <div className="subheading">
-            <h3 className="intro-text">Hi there, I'm Kabir!</h3>
-            <em className="subtext">Thanks for stopping by.</em>
-            <br></br>
-            <span className="subtext-tiny">My site is still under development, but feel free to look around!</span>
+            <h3 className="intro-text">Hi there! I'm Kabir.</h3>
+            <em className="subtext">I'm a researcher, software engineer & aspiring professor, currently attending Cornell University.</em><br></br>
+            <em className="subtext">I'm interested in programming language theory, compilers, algorithms & verifying software.</em><br></br>
+            <em className="subtext">I'm also an amateur musican, photographer & ornithologist!</em>
         </div>
     </div>
   );
