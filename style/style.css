@@ -1,0 +1,51 @@
+body {
+    background-color: #d1c4a1;
+}
+
+h2 {
+    text-decoration: underline;
+}
+
+a {
+    color: black;
+}
+
+.flex-content {
+    display: flex;
+    margin-left: 100px;
+    margin-right: 100px;
+  }
+  
+
+#overview {
+    width: 100%;
+    text-align: center;
+    margin-right: 100px;
+}
+
+#rest {
+    width: 250%;
+}
+
+#profile {
+    width: 300px;
+    height: 300px;
+    border-radius: 20px;
+    margin-top: 70px;
+    margin-bottom: 10px;
+}
+
+#centered {
+    text-align: center;
+    font-size: 250%;
+}
+
+.imglink {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+}
+
+.big-link {
+    font-size: 125%;
+}
